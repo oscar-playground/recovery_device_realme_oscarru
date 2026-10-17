@@ -19,6 +19,9 @@ TW_DEFAULT_BRIGHTNESS := 1024
 # Battery
 TW_USE_LEGACY_BATTERY_SERVICES := true
 
+# Thermal
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone28/temp"
+
 # Fastboot
 TW_NO_FASTBOOT_BOOT := true
 
