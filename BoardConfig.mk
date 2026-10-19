@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/oscar
+DEVICE_PATH := device/realme/oscarru
 
 # Broken
 ALLOW_MISSING_DEPENDENCIES := true
@@ -42,9 +42,6 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a75
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := holi
-
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oscar
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 4

@@ -4,9 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fox_oscar.mk
+    $(LOCAL_DIR)/fox_oscarru.mk
 
 COMMON_LUNCH_CHOICES := \
-    fox_oscar-user \
-    fox_oscar-userdebug \
-    fox_oscar-eng
+    fox_oscarru-user \
+    fox_oscarru-userdebug \
+    fox_oscarru-eng
