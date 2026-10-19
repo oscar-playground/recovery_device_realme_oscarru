@@ -10,3 +10,4 @@
 /vbmeta             emmc    /dev/block/bootdevice/by-name/vbmeta                           flags=display="VBMeta";backup;flashimg;
 /vbmeta_system      emmc    /dev/block/bootdevice/by-name/vbmeta_system                    flags=display="System VBMeta";backup;flashimg;
 /vbmeta_vendor      emmc    /dev/block/bootdevice/by-name/vbmeta_vendor                    flags=display="Vendor VBMeta";backup;flashimg;
+/ocdt               emmc    /dev/block/bootdevice/by-name/ocdt                             flags=display="OCDT";backup;flashimg;
