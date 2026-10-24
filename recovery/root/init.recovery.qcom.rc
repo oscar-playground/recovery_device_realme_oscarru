@@ -38,6 +38,9 @@ on init && property:vendor.usb.use_ffs_mtp=1
 on boot
     start health-hal-2-1
 
+on post-fs
+    start boot-hal-1-2
+
 #
 # USB compositions
 #
